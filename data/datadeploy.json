@@ -9,7 +9,46 @@
 					"Name",
 					"ProductCode",
 					"IsActive"
-				]
+				],
+				"filterCriteria": {
+					"Key__c": { "$ne": null }
+				}
+			},
+			"deployConfig" : {
+				"externalIdFieldApiName" : "Key__c"
+			}
+		},		
+		{
+			"sObjectApiName": "PriceBook2",
+			"dataFileName": "PriceBook2.json",
+			"retrieveConfig" : {
+				"includeFieldApiNames" : [
+					"Key__c",
+					"IsActive",
+					"Name"
+				],
+				"filterCriteria": {
+					"Key__c": { "$ne": null }
+				}
+			},
+			"deployConfig" : {
+				"externalIdFieldApiName" : "Key__c"
+			}
+		},
+		{
+			"sObjectApiName": "PricebookEntry",
+			"dataFileName": "PricebookEntry.json",
+			"retrieveConfig" : {
+				"includeFieldApiNames" : [
+					"Key__c",
+					"Pricebook2.Key__c",
+					"Product2.Key__c",
+					"UnitPrice",
+					"UseStandardPrice"
+				],
+				"filterCriteria": {
+					"Key__c": { "$ne": null }
+				}
 			},
 			"deployConfig" : {
 				"externalIdFieldApiName" : "Key__c"
