@@ -1,0 +1,19 @@
+{
+	"jobs": [
+		{
+			"sObjectApiName": "Product2",
+			"dataFileName": "Product2.json",
+			"retrieveConfig" : {
+				"includeFieldApiNames" : [
+					"Key__c",
+					"Name",
+					"ProductCode",
+					"IsActive"
+				]
+			},
+			"deployConfig" : {
+				"externalIdFieldApiName" : "Key__c"
+			}
+		}
+	]
+}
