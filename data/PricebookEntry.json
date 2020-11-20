@@ -1,0 +1,9 @@
+[
+  {
+    "Key__c": "PBE-FY22-GC1060",
+    "UnitPrice": 100000,
+    "UseStandardPrice": false,
+    "Pricebook2.Key__c": "PB-FY22",
+    "Product2.Key__c": "GC1060"
+  }
+]
