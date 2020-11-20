@@ -5,5 +5,12 @@
     "UseStandardPrice": false,
     "Pricebook2.Key__c": "PB-FY22",
     "Product2.Key__c": "GC1060"
+  },
+  {
+    "Key__c": "PBE-FY21-GEN1",
+    "UnitPrice": 100000,
+    "UseStandardPrice": false,
+    "Pricebook2.Key__c": "PB-FY21",
+    "Product2.Key__c": "GC1060"
   }
 ]
