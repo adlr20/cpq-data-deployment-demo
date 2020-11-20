@@ -1,0 +1,12 @@
+[
+  {
+    "Key__c": "PB-FY21",
+    "IsActive": true,
+    "Name": "FY21 Price Book"
+  },
+  {
+    "Key__c": "PB-FY22",
+    "IsActive": false,
+    "Name": "FY22 Price Book"
+  }
+]
